@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: sans-serif;
+    color: #1E0E62;
+}
+
+.container{
+    width: 100vw;
+    height: 40px;
+    background-color: beige;
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+}
+.menuBar1 ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+align-items: center;
+}
+.menuBar1 li{
+    margin: 0 5px;
+}
+.menuBar2 ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+align-items: center;
+}
+.menuBar2 li{
+    margin: 0 5px;
+}
+.menuBar2 li .btn1{
+    border: 1px solid blue;
+    border-radius: 20px;
+    padding: 4px 10px;
+}
