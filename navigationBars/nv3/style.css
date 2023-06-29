@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.header{
+    width: 100vw;
+    background-color: rgb(239, 231, 220);
+    height: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+h2{
+    color: #341aa5;
+
+}
+.menuBar ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    
+}
+.menuBar ul li{
+    list-style: none;
+    padding: 18px;
+    color: #31199f;
+
+}
+
+.contacts ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    
+}
+.contacts ul li{
+    list-style: none;
+    padding: 18px;
+    color: #69676f;
+}
