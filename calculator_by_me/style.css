@@ -17,11 +17,14 @@ body{
 }
 
 .output{
+    font-size: 25px;
     width: 190px;
     margin: 4px;
     height: 32px;
     background-color: #d6d2d2;
+    color: hsl(0, 3%, 23%);
     border: 1px solid whitesmoke;
+    text-align: right;
 }
 
 .row{
@@ -41,4 +44,20 @@ button{
     margin: 3px;
     cursor: pointer;
     background-color: yellow;
+    border: 1px solid #ffffff;
+} 
+
+button:hover{
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.equalbtn{
+    width: 80px;
+    background-color: orange;
+}
+.operator{
+    color: green;
+    font-weight: bold;
 }
